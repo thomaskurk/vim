@@ -18,6 +18,9 @@ set viminfofile=$XDG_STATE_HOME/vim/viminfo
 
 set guicursor=n-v-c:block,i-ci-ve:ver25
 
+let g:netrw_bufsettings = 'noma nomod nobl nowrap ro nu rnu'
+
+set cursorline
 set number
 set relativenumber
 
